@@ -1,32 +1,31 @@
 name: Update EPG
 
 on:
+  workflow_dispatch:  # bisa trigger manual
   schedule:
-    - cron: '0 5 * * *'
-  workflow_dispatch:
+    - cron: '0 5 * * *'  # update tiap jam 5 UTC
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: pip install requests
+      - name: Install requests
+        run: pip install requests
 
-    - name: Fetch EPG
-      run: python scripts/fetch_epg.py
+      - name: Fetch EPG
+        run: python scripts/fetch_epg.py
 
-    - name: Commit & Push
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add epg.xml
-        git commit -m "Update EPG" || echo "No changes to commit"
-        git push
+      - name: Commit & Push EPG
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add epg.xml
+          git commit -m "Update EPG" || echo "No changes to commit"
+          git push
