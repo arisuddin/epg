@@ -24,7 +24,7 @@ jobs:
       - name: Fetch EPG
         run: python scripts/fetch_epg.py
 
-      - name: Commit & Push EPG
+      - name: Commit & Force Push EPG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -32,4 +32,4 @@ jobs:
           git config --local user.name "GitHub Action"
           git add epg.xml
           git commit -m "Update EPG" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/arisuddin/epg.git
+          git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/arisuddin/epg.git
