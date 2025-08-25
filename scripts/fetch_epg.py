@@ -1,7 +1,7 @@
 import requests
 
 # URL EPG public yang pasti ada
-EPG_URL = "https://raw.githubusercontent.com/public-epg/xmltv/master/epg.xml"
+EPG_URL = "https://epg.pw/xmltv/epg_ID.xml"
 LOCAL_FILE = "epg.xml"
 
 try:
