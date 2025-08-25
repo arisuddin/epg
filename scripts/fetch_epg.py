@@ -1,10 +1,11 @@
 import os
 import requests
 
+# URL EPG public yang valid
 EPG_URL = "https://epg.pw/xmltv/epg_ID.xml"
 
-# Simpan file di root repo
-LOCAL_FILE = os.path.join(os.getcwd(), "epg.xml")  # absolute path writeable
+# Simpan file di root repo (writeable di Actions)
+LOCAL_FILE = os.path.join(os.getcwd(), "epg.xml")
 
 try:
     r = requests.get(EPG_URL, timeout=30)
@@ -16,3 +17,4 @@ try:
     print(f"EPG berhasil diambil dan disimpan di {LOCAL_FILE}")
 except Exception as e:
     print(f"Gagal mengambil EPG: {e}")
+    # jangan raise supaya workflow tetap jalan
