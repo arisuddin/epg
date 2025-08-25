@@ -1,20 +1,28 @@
 import os
 import requests
 
-# URL EPG public yang valid
-EPG_URL = "https://epg.pw/xmltv/epg_ID.xml"
+# Dua URL EPG public
+EPG_URLS = [
+    "https://epg.pw/xmltv/epg_ID.xml",      # URL pertama
+    "https://epg.pw/xmltv/epg_ID_2.xml",    # URL kedua
+]
 
-# Simpan file di root repo (writeable di Actions)
-LOCAL_FILE = os.path.join(os.getcwd(), "epg.xml")
+local_file = os.path.join(os.getcwd(), "epg.xml")  # simpan di root repo
+combined_content = ""
 
+for url in EPG_URLS:
+    try:
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        combined_content += r.text + "\n"  # gabungkan konten
+        print(f"EPG berhasil diambil dari {url}")
+    except Exception as e:
+        print(f"Gagal mengambil EPG dari {url}: {e}")
+
+# tulis gabungan ke file
 try:
-    r = requests.get(EPG_URL, timeout=30)
-    r.raise_for_status()
-
-    with open(LOCAL_FILE, "wb") as f:
-        f.write(r.content)
-
-    print(f"EPG berhasil diambil dan disimpan di {LOCAL_FILE}")
+    with open(local_file, "w", encoding="utf-8") as f:
+        f.write(combined_content)
+    print(f"Semua EPG berhasil digabung dan disimpan di {local_file}")
 except Exception as e:
-    print(f"Gagal mengambil EPG: {e}")
-    # jangan raise supaya workflow tetap jalan
+    print(f"Gagal menulis file gabungan: {e}")
