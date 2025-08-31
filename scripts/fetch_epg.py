@@ -3,7 +3,7 @@ import requests
 
 # Dua URL EPG public
 EPG_URLS = [
-    "https://raw.tesgithubusercontent.com/AqFad2811/epg/refs/heads/main/astro.xml",      # URL pertama
+    "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/astro.xml",      # URL pertama
     "https://iptv-epg.org/files/epg-id.xml",    # URL kedua
 ]
 
