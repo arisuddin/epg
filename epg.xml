@@ -311875,3 +311875,61 @@
 <programme start="20250902082000 +0000" stop="20250902082500 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.29.</episode-num></programme>
 <programme start="20250902082500 +0000" stop="20250902083000 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.30.</episode-num></programme>
 </tv>
+<?xml version='1.0' encoding='UTF-8'?>
+<tv date="20250831211525 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/430425/20250831.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=430425&amp;date=20250831&amp;timezone=QXNpYS9KYWthcnRh">
+  <channel id="430425">
+    <display-name lang="Philippines">HBO SIGNATURE</display-name>
+    <icon src="" />
+  </channel>
+  <programme channel="430425" start="20250831003000 +0700" stop="20250831020000 +0700">
+    <title lang="zh">THE CONSTANT GARDENER</title>
+    <desc>A diplomat is shattered when his young wife is mysteriously and brutally murdered. Digging deeper, he finds himself entangled in a series of coverups.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831020000 +0700" stop="20250831024000 +0700">
+    <title lang="zh">THE CONSTANT GARDENER</title>
+    <desc>A diplomat is shattered when his young wife is mysteriously and brutally murdered. Digging deeper, he finds himself entangled in a series of coverups.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831024000 +0700" stop="20250831043500 +0700">
+    <title lang="zh">FOOTLOOSE</title>
+    <desc>A city kid moves to a small town where rock n roll and dancing had been banned, and his rebellious spirit shakes up the populace.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831043500 +0700" stop="20250831071000 +0700">
+    <title lang="zh">WICKED</title>
+    <desc>The untold story of the Witches of Oz, spotlighting the untold stories of Ozs most infamous characters.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831071000 +0700" stop="20250831085000 +0700">
+    <title lang="zh">SAY HER NAME THE LIFE AND DEATH OF SANDRA BLAND</title>
+    <desc>The documentary explores the death of Sandra Bland, a politically active African American who, after being arrested for a traffic violation, was found hanging in her jail cell three days later.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831085000 +0700" stop="20250831103500 +0700">
+    <title lang="zh">SHALL WE DANCE</title>
+    <desc>A wistful middleaged lawyer finds an undiscovered passion within when an impulse prompts him to take ballroom dancing lessons.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831103500 +0700" stop="20250831121000 +0700">
+    <title lang="zh">THE HANGOVER</title>
+    <desc>When three friends get together for one last weekendlong bachelor party in Vegas, they think they had a good time.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831121000 +0700" stop="20250831140500 +0700">
+    <title lang="zh">JUROR 2</title>
+    <desc>A juror in a highprofile murder trial faces a serious moral dilemma one that could sway the jury to convict or free the accused killer.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831140500 +0700" stop="20250831161000 +0700">
+    <title lang="zh">DUPLICITY</title>
+    <desc>Julia Roberts and Clive Owen star as two sexy spiesturnedcorporate operatives in the midst of a clandestine love affair.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831161000 +0700" stop="20250901000000 +0700">
+    <title lang="zh">WICKED</title>
+    <desc>The untold story of the Witches of Oz, spotlighting the untold stories of Ozs most infamous characters.</desc>
+    <date>2025-08-31</date>
+  </programme>
+</tv>
+
