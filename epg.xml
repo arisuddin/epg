@@ -123,6 +123,20 @@
 <channel id="Xing kong TV.id"><display-name>Xing kong TV.id</display-name></channel>
 <channel id="Zee Bioskop.id"><display-name>Zee Bioskop.id</display-name></channel>
 <channel id="Zoo Moo.id"><display-name>Zoo Moo.id</display-name></channel>
+<channel id="DiscoveryChannel">
+    <display-name lang="en">Discovery Channel HD</display-name>
+    <icon src="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/376_144.png" />
+    <url>http://www.astro.com.my</url>
+  </channel>
+  <programme start="20250831001800 +0000" stop="20250831121300 +0000" channel="DiscoveryChannel">
+    <title lang="en">Air India Crash: What Went Wrong?</title>
+    <desc lang="en">Using expert testimony, this film seeks to unpack every aspect of the London bound Air India Flight AI171 plane crash carrying 242 passengers and crew.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="https://s3-ap-southeast-1.amazonaws.com/ams-astro/production/images/10000382X914525.jpg" />
+    <rating system="MY">
+      <value>18</value>
+    </rating>
+  </programme>
 <programme start="20250830230000 +0000" stop="20250831010000 +0000" channel="Al Quran Al Kareem.id"><title>Live From Mekkah</title></programme>
 <programme start="20250831010000 +0000" stop="20250831030000 +0000" channel="Al Quran Al Kareem.id"><title>Live From Mekkah</title></programme>
 <programme start="20250831030000 +0000" stop="20250831050000 +0000" channel="Al Quran Al Kareem.id"><title>Live From Mekkah</title></programme>
@@ -5058,4 +5072,5 @@
 <programme start="20250902081500 +0000" stop="20250902082000 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.26.</episode-num></programme>
 <programme start="20250902082000 +0000" stop="20250902082500 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.29.</episode-num></programme>
 <programme start="20250902082500 +0000" stop="20250902083000 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.30.</episode-num></programme>
+
 </tv>
