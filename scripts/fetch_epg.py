@@ -4,7 +4,7 @@ import requests
 # Dua URL EPG public
 EPG_URLS = [
     "https://raw.tesgithubusercontent.com/AqFad2811/epg/refs/heads/main/astro.xml",      # URL pertama
-    "https://epg.pw/xmltv/epg_lite.xml",    # URL kedua
+    "https://iptv-epg.org/files/epg-id.xml",    # URL kedua
 ]
 
 local_file = os.path.join(os.getcwd(), "epg.xml")  # simpan di root repo
