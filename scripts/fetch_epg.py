@@ -4,7 +4,8 @@ import requests
 # Dua URL EPG public
 EPG_URLS = [
     "https://raw.githubusercontent.com/AqFad2811/epg/refs/heads/main/astro.xml",      # URL pertama
-    "https://iptv-epg.org/files/epg-id.xml",    # URL kedua
+    "https://iptv-epg.org/files/epg-id.xml",
+    "https://epg.pw/api/epg.xml?lang=en&timezone=QXNpYS9KYWthcnRh&date=20250831&channel_id=430425",# URL kedua
 ]
 
 local_file = os.path.join(os.getcwd(), "epg.xml")  # simpan di root repo
