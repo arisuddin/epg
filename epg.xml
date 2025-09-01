@@ -311876,7 +311876,7 @@
 <programme start="20250902082500 +0000" stop="20250902083000 +0000" channel="Zoo Moo.id"><title>Fix It With Piglet</title><desc>Piglet has received a letter from an animal friend with a problem. Can Piglet fix it?</desc><episode-num system="xmltv_ns">0.30.</episode-num></programme>
 </tv>
 <?xml version='1.0' encoding='UTF-8'?>
-<tv date="20250831211525 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/430425/20250831.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=430425&amp;date=20250831&amp;timezone=QXNpYS9KYWthcnRh">
+<tv date="20250901132636 +0800" generator-info-name="epg.pw" generator-info-url="https://epg.pw/channels/430425/20250831.html" source-info-name="FREE EPG" source-info-url="https://epg.pw/api/epg.xml?channel_id=430425&amp;date=20250831&amp;timezone=QXNpYS9KYWthcnRh">
   <channel id="430425">
     <display-name lang="Philippines">HBO SIGNATURE</display-name>
     <icon src="" />
@@ -311926,10 +311926,45 @@
     <desc>Julia Roberts and Clive Owen star as two sexy spiesturnedcorporate operatives in the midst of a clandestine love affair.</desc>
     <date>2025-08-31</date>
   </programme>
-  <programme channel="430425" start="20250831161000 +0700" stop="20250901000000 +0700">
+  <programme channel="430425" start="20250831161000 +0700" stop="20250831170000 +0700">
     <title lang="zh">WICKED</title>
     <desc>The untold story of the Witches of Oz, spotlighting the untold stories of Ozs most infamous characters.</desc>
     <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831170000 +0700" stop="20250831185000 +0700">
+    <title lang="zh">WICKED</title>
+    <desc>The untold story of the Witches of Oz, spotlighting the untold stories of Ozs most infamous characters.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831185000 +0700" stop="20250831200000 +0700">
+    <title lang="zh">THE CONSTANT GARDENER</title>
+    <desc>A diplomat is shattered when his young wife is mysteriously and brutally murdered. Digging deeper, he finds himself entangled in a series of coverups.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831200000 +0700" stop="20250831210000 +0700">
+    <title lang="zh">THE CONSTANT GARDENER</title>
+    <desc>A diplomat is shattered when his young wife is mysteriously and brutally murdered. Digging deeper, he finds himself entangled in a series of coverups.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831210000 +0700" stop="20250831215000 +0700">
+    <title lang="zh">DEADLY INFLUENCE THE SOCIAL MEDIA MURDERS S1</title>
+    <desc>An Instagram sex guru who revels in the glitz and excess of Vegas becomes entangled with a Sin City resident he believes holds a dark energy inside.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831215000 +0700" stop="20250831234500 +0700">
+    <title lang="zh">FOOTLOOSE</title>
+    <desc>A city kid moves to a small town where rock n roll and dancing had been banned, and his rebellious spirit shakes up the populace.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250831234500 +0700" stop="20250901000000 +0700">
+    <title lang="zh">THE BRUTALIST</title>
+    <desc>The Brutalist tracks the journey of Lszl Toth, a Hungarian Jewish architect who, after surviving the Holocaust.</desc>
+    <date>2025-08-31</date>
+  </programme>
+  <programme channel="430425" start="20250901020000 +0700" stop="20250902000000 +0700">
+    <title lang="zh">THE BRUTALIST</title>
+    <desc>The Brutalist tracks the journey of Lszl Toth, a Hungarian Jewish architect who, after surviving the Holocaust.</desc>
+    <date>2025-09-01</date>
   </programme>
 </tv>
 
