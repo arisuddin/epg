@@ -1,15 +1,16 @@
 name: Update EPG
 
 on:
-  workflow_dispatch:  # trigger manual
+  workflow_dispatch:
   schedule:
-    - cron: '0 5 * * *'  # update tiap hari jam 05:00 UTC
+    - cron: '0 5 * * *'  # setiap hari jam 05:00 UTC
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # pastikan workflow bisa push
+      contents: write
+
     steps:
       - uses: actions/checkout@v3
 
@@ -18,18 +19,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install dependencies
+        run: pip install requests lxml
 
-      - name: Fetch EPG
+      - name: Fetch & Merge EPG
         run: python scripts/fetch_epg.py
 
-      - name: Commit & Force Push EPG
+      - name: Commit & Push EPG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add epg.xml
-          git commit -m "Update EPG" || echo "No changes to commit"
-          git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/arisuddin/epg.git
+          git commit -m "Update EPG $(date +'%Y-%m-%d')" || echo "No changes"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/arisuddin/epg.git
